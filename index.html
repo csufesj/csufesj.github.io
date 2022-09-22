@@ -26,7 +26,7 @@ aria-expanded="false" aria-label="Toggle navigation">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
-        <li class="nav-item">
+        <!--li class="nav-item">
           <a class="nav-link" href="#">Link</a>
         </li>
         <li class="nav-item">
@@ -38,29 +38,98 @@ aria-expanded="false" aria-label="Toggle navigation">
 placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" 
 type="submit">Search</button>
-      </form>
+      </form-->
     </div>
   </div>
 </nav>
 
 <main class="container">
-  <div class="position-relative overflow-hidden p-3 p-md-5 m-md-3 
-text-center bg-light">
-    <div class="col-md-12 p-lg-5 mx-auto my-5">
-      <h1 class="display-2 fw-normal">Engineering Social Justice 2023</h1>
-      <p class="lead fw-normal">It is too easy to find examples of 
-social injustice that could be corrected by better engineering 
-decisions.</p>
-      <p class="display-6">That needs to change.</p>
-      <p class="lead fw-normal">CSUF ECS students have the skills and 
-knowledge to 
-design solutions that can improve the quality of life for underrepresented 
-communities.</p>
+    
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="position-absolute overflow-hidden p-3 p-md-5 m-md-3
+      text-center" style="z-index:1">
+          <div class="col-md-12 p-lg-5 mx-auto my-5">
+            <h1 class="display-4 fw-normal">Engineering Social Justice Competition 2023</h1>
+            <p class="lead fw-normal">It is too easy to find examples of
+      social injustice that could be corrected by better engineering
+      decisions.</p>
+            <p class="display-6">That needs to change.</p>
+            <p class="lead fw-normal">CSUF ECS students have the skills and
+      knowledge to
+      design solutions that can improve the quality of life for underrepresented
+      communities.</p>
+              <h3 class="fw-semibold mb-0">Prize money</h4>
+              <p>First prize: $6,000 </br>
+              Second prize: $4,000</br>
+              Third prize: $2,000.</p>
+          </div>
+          <div class="product-device shadow-sm d-none d-md-block"></div>
+          <div class="product-device product-device-2 shadow-sm d-none
+      d-md-block"></div>
+        </div>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+                <div class="bg-image"
+                     style="background-image: url('images/hackathon.jpeg');
+                            background-position: center;
+                            opacity: 0.5;
+                            height: 100vh">
+                </div>
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Example headline.</h1>
+              <p>Some representative placeholder content for the first slide of the carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <div class="bg-image"
+                 style="background-image: url('images/trekk.jpeg');
+                        background-position: center;
+                        opacity: 0.5;
+                        height: 100vh">
+            </div>
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1>Example headline.</h1>
+              <p>Some representative placeholder content for the first slide of the carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+            <div class="bg-image"
+                 style="background-image: url('images/plant.jpeg');
+                        background-position: center;
+                        opacity: 0.5;
+                        height: 100vh">
+            </div>
+
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1>One more for good measure.</h1>
+              <p>Some representative placeholder content for the third slide of this carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="product-device shadow-sm d-none d-md-block"></div>
-    <div class="product-device product-device-2 shadow-sm d-none 
-d-md-block"></div>
-  </div>
+    
   <!-- taken from https://mdbootstrap.com/docs/standard/extended/timeline/ -->
   <div class="container px-4 py-5">
       <h2 class="pb-2 border-bottom">About the competition</h2>
@@ -131,7 +200,7 @@ d-md-block"></div>
             <p class="text-muted">Pitch your idea to a panel of industry professionals to wint grant money for further development.</p>
           </div>
 
-          <div class="d-flex flex-column gap-2">
+          <!--div class="d-flex flex-column gap-2">
               <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-4 rounded-3" style="height: 2em; width: 2em">
                   <i class="bi-trophy"></i>
               </div>
@@ -140,7 +209,7 @@ d-md-block"></div>
             Second prize: $4,000</br>
             Third prize: $2,000.</p>
           </div>
-        </div>
+        </div-->
       </div>
     </div>
 </main>	
