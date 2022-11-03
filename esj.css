@@ -19,6 +19,18 @@ a {
     text-decoration: none;
 }
 
+.sunshine-text {
+    color: #FEB210;
+}
+
+a.dark-link {
+    text-decoration: none;
+}
+
+a.sunshine-text:hover {
+    color: #FEB210;
+}
+
 .nav {
     --bs-nav-link-padding-x: 1rem;
     --bs-nav-link-padding-y: 0.5rem;
