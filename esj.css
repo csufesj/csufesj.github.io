@@ -3,7 +3,7 @@ body {
 }
 
 .hero-banner {
-    padding-top: 15rem;
+    padding-top: 5rem;
 }
 
 a {
@@ -17,6 +17,18 @@ a:hover {
 
 a {
     text-decoration: none;
+}
+
+.sunshine-text {
+    color: #FEB210;
+}
+
+a.dark-link {
+    text-decoration: none;
+}
+
+a.sunshine-text:hover {
+    color: #FEB210;
 }
 
 .nav {
