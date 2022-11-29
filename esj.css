@@ -70,6 +70,11 @@ a.sunshine-text:hover {
     background-color: #00274C;
 }
 
+.text-bg-sunshine {
+    color: #000!important;
+    background-color: #FEB210;
+}
+
 .btn-sunshine {
     --bs-btn-color: #000;
     --bs-btn-bg: #FEB210;
