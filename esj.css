@@ -1,6 +1,7 @@
 body {
   min-height: 75rem;
   background-color: #f9f9f9;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .hero-banner {
@@ -87,7 +88,7 @@ a.sunshine-text:hover {
 
 .bg-esjltgreen {
     color: #fff!important;
-    background-color: #4aada9;
+    background-color: #309692;
 }
 
 .text-bg-titanblue {
@@ -97,7 +98,7 @@ a.sunshine-text:hover {
 
 .text-bg-esjltgreen {
     color: #fff!important;
-    background-color: #4aada9;
+    background-color: #309692;
 }
 
 .text-bg-esjdkgreen {
@@ -110,7 +111,7 @@ a.sunshine-text:hover {
 }
 
 .text-esjltgreen {
-    color: #4aada9;
+    color: #309692;
 }
 
 .text-bg-sunshine {
