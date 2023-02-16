@@ -133,10 +133,10 @@ a.sunshine-text:hover {
 }
 
 .table-esj {
-    --bs-table-color: #000;
-    --bs-table-bg: #fff;
+    --bs-table-color: #fff;
+    --bs-table-bg: #309692;
     
-    --bs-table-striped-bg: #309692;
+    --bs-table-striped-bg: #fff;
     --bs-table-striped-color: #fff;
     --bs-table-active-bg: #309692;
     --bs-table-active-color: #000;
@@ -145,6 +145,7 @@ a.sunshine-text:hover {
     color: var(--bs-table-color);
     border-color: var(--bs-table-border-color);
 }
+
 
 .btn-sunshine {
     --bs-btn-color: #000;
