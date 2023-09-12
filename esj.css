@@ -238,15 +238,13 @@ a.sunshine-text:hover {
 
 .about {
     padding: 0px;
-    display: flex;
-    flex-direction: column;
 }
 
 .caption {
     color: #039359 !important;
+    padding: 10px;
     display: flex;
     justify-content: center;
-    padding: 10px;
 }
 
 .suggestions,
@@ -265,9 +263,8 @@ a.sunshine-text:hover {
 }
 
 .group-photo {
-    display: flex;
-    justify-content: center;
     /*TODO: FIX THIS PHOTO FOR MOBILE*/
+    text-align: center; /*to get visual studio to shut up :)*/
 }
 
 #prize {
