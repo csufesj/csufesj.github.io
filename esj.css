@@ -264,11 +264,29 @@ a.sunshine-text:hover {
 
 .group-photo {
     /*TODO: FIX THIS PHOTO FOR MOBILE*/
-    text-align: center; /*to get visual studio to shut up :)*/
+    text-align: center;
+    /*to get visual studio to shut up :)*/
+}
+
+.pad{
+    padding-top: 50px;
+}
+
+.foot {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: #02bf80;
+    text-align: center;
+    color: #f9f9f9;
+}
+#viewheight {
+    margin-top: 40vh;
 }
 
 #prize {
-    padding: 15px;
+    padding-top: 50px;
 }
 
 #team {
@@ -277,7 +295,7 @@ a.sunshine-text:hover {
     justify-content: space-around;
 }
 
-#winner-link {
+#link {
     color: #f9f9f9;
     text-decoration: underline;
 }
