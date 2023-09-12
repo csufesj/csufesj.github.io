@@ -268,7 +268,7 @@ a.sunshine-text:hover {
     /*to get visual studio to shut up :)*/
 }
 
-.pad{
+.pad {
     padding-top: 50px;
 }
 
@@ -281,6 +281,7 @@ a.sunshine-text:hover {
     text-align: center;
     color: #f9f9f9;
 }
+
 #viewheight {
     margin-top: 40vh;
 }
@@ -307,4 +308,9 @@ a.sunshine-text:hover {
 
 #icon-space {
     padding-top: 50px;
+}
+
+#interest {
+    font-size: xx-large;
+    background-color: #f57d05;
 }
