@@ -1,0 +1,207 @@
+body {
+  min-height: 75rem;
+  background-color: #f9f9f9;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.hero-banner {
+    padding-top: 5rem;
+}
+
+a {
+    color: #f56145;
+}
+
+a:hover {
+    color: #f56145;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3, h4, h5 {
+    color: #116160!important;
+}
+
+.timeline {
+    border-left: 1px solid #f56145!important;
+}
+
+.timeline-item:after {
+    background-color: #f56145!important;
+}
+
+.sunshine-text {
+    color: #FEB210;
+}
+
+a.dark-link {
+    text-decoration: none;
+}
+
+a.sunshine-text:hover {
+    color: #FEB210;
+}
+
+.nav {
+    --bs-nav-link-padding-x: 1rem;
+    --bs-nav-link-padding-y: 0.5rem;
+    --bs-nav-link-font-weight: ;
+    --bs-nav-link-color: var(--bs-link-color);
+    --bs-nav-link-hover-color: #d5d5d5;
+    --bs-nav-link-disabled-color: #6c757d;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-link {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: #fff;
+    text-decoration: none!important;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+.nav-pills .nav-link.active {
+    /*color: #000;
+      background-color: #FEB210;*/
+    color: #fff;
+    background-color: #f56145;
+}
+
+.bg-titanblue {
+    --bs-bg-opacity: 1;
+    background-color: #00274C!important;
+}
+
+.bg-esjdkgreen {
+    color: #fff!important;
+    background-color: #116160;
+}
+
+.bg-esjltgreen {
+    color: #fff!important;
+    background-color: #309692;
+}
+
+.text-bg-titanblue {
+    color: #fff!important;
+    background-color: #00274C;
+}
+
+.text-bg-esjltgreen {
+    color: #fff!important;
+    background-color: #309692;
+}
+
+.text-bg-esjdkgreen {
+    color: #fff;
+    background-color: #116160!important;
+}
+
+.text-esjdkgreen {
+    color: #116160;
+}
+
+.text-esjltgreen {
+    color: #309692;
+}
+
+.text-bg-sunshine {
+    color: #000!important;
+    background-color: #FEB210;
+}
+
+.text-bg-esjorange {
+    color: #fff!important;
+    background-color: #f56145;
+}
+
+.text-muted {
+    color: #309692!important;
+}
+
+.card-title {
+    color: #fff!important;
+}
+
+.table-esj {
+    --bs-table-color: #fff;
+    --bs-table-bg: #309692;
+    
+    --bs-table-striped-bg: #fff;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #309692;
+    --bs-table-active-color: #000;
+    --bs-table-hover-bg: #309692;
+    --bs-table-hover-color: #fff;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+}
+
+
+.btn-sunshine {
+    --bs-btn-color: #000;
+    --bs-btn-bg: #FEB210;
+    --bs-btn-border-color: #FEB210; /*change*/
+    --bs-btn-hover-color: #000;
+    --bs-btn-hover-bg: #DA9501;
+    --bs-btn-hover-border-color: #C98901; /*change*/
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #DA9501; /*change*/
+    --bs-btn-active-border-color: #C98901; /*change*/
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.btn-esjorange {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #f56145;
+    --bs-btn-border-color: #f56145; /*change*/
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #f34625;
+    --bs-btn-hover-border-color: #f34625; /*change*/
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #DA9501; /*change*/
+    --bs-btn-active-border-color: #C98901; /*change*/
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.timeline {
+  border-left: 1px solid hsl(0, 0%, 90%);
+  position: relative;
+  list-style: none;
+}
+
+.timeline .timeline-item {
+  position: relative;
+}
+
+.timeline .timeline-item:after {
+  position: absolute;
+  display: block;
+  top: 0;
+}
+
+.timeline .timeline-item:after {
+  background-color: hsl(0, 0%, 90%);
+  left: -38px;
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  content: "";
+}
