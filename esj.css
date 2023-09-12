@@ -1,3 +1,4 @@
+/*TODO: ORGANIZE*/
 body {
     min-height: 75rem;
     background-color: #f9f9f9;
@@ -237,12 +238,13 @@ a.sunshine-text:hover {
 
 .about {
     padding: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .caption {
     color: #039359 !important;
     display: flex;
-    align-items: center;
     justify-content: center;
     padding: 10px;
 }
@@ -250,11 +252,22 @@ a.sunshine-text:hover {
 .suggestions,
 #department {
     padding-bottom: 50px;
+    text-align: center;
 }
 
 .abstract {
     text-align: center;
     padding-bottom: 25px;
+}
+
+.heading {
+    padding-top: 50px;
+}
+
+.group-photo {
+    display: flex;
+    justify-content: center;
+    /*TODO: FIX THIS PHOTO FOR MOBILE*/
 }
 
 #prize {
@@ -270,4 +283,13 @@ a.sunshine-text:hover {
 #winner-link {
     color: #f9f9f9;
     text-decoration: underline;
+}
+
+#place,
+#name {
+    text-align: center;
+}
+
+#icon-space {
+    padding-top: 50px;
 }
