@@ -37,6 +37,11 @@ h6 {
     font-size: smaller;
 }
 
+h7 {
+    color: #000;
+    font-size: large;
+}
+
 .timeline {
     border-left: 1px solid #f57d05 !important;
 }
