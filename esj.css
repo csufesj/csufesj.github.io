@@ -1,4 +1,4 @@
-/*TODO: ORGANIZE*/
+f/*TODO: ORGANIZE*/
 body {
     min-height: 75rem;
     background-color: #f9f9f9;
@@ -9,25 +9,47 @@ body {
     padding-top: 5rem;
 }
 
-a {
+.clr_dflt
+{
+    color:#0f172a;;
+}
+
+/* a {
     color: #f57d05;
 }
 
 a:hover {
     color: #f57d05;
     text-decoration: underline;
-}
+} */
 
 a {
     text-decoration: none;
 }
 
-h3,
+.link_deoration
+{
+    color:#0F172A;
+    /* text-decoration: dotted; */
+    border-bottom: 1px dashed #0f172a; 
+    transition-duration: 0.3s;
+}
+
+.link_deoration:hover
+{
+    color:#0F172A;
+    font-size: 1.2rem;
+    transition-duration: 0.3s;
+    /* text-decoration: dotted; */
+    border-bottom: 1px solid #0F172A; 
+}
+
+/* h3,
 h4,
 h5,
 h6 {
     color: #039359 !important;
-}
+} */
 
 h5 {
     font-size: medium;
@@ -67,7 +89,7 @@ a.sunshine-text:hover {
     --bs-nav-link-padding-y: 0.5rem;
     --bs-nav-link-font-weight: ;
     --bs-nav-link-color: var(--bs-link-color);
-    --bs-nav-link-hover-color: #d5d5d5;
+    /* --bs-nav-link-hover-color: rgb(157, 157, 157); */
     --bs-nav-link-disabled-color: #6c757d;
     display: flex;
     flex-wrap: wrap;
@@ -81,17 +103,31 @@ a.sunshine-text:hover {
     padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
     font-size: var(--bs-nav-link-font-size);
     font-weight: var(--bs-nav-link-font-weight);
-    color: #fff;
+    color: white;
     text-decoration: none !important;
+    margin-left: 5px;
+    margin-right: 5px;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
         border-color 0.15s ease-in-out;
+}
+.nav-link:hover{
+    color:white;
+    border-bottom: 1px solid white;
+    border-radius: 0;
+    /* text-decoration: underline; */
 }
 
 .nav-pills .nav-link.active {
     /*color: #000;
       background-color: #FEB210;*/
-    color: #fff;
-    background-color: #f57d05;
+    color: #0F172A;
+    background-color: white;
+    border-radius:0;
+}
+
+.nav_heading_main
+{
+    color:white;
 }
 
 .bg-titanblue {
@@ -100,9 +136,10 @@ a.sunshine-text:hover {
 }
 
 .bg-esjdkgreen {
-    color: #fff !important;
-    background-color: #039359;
+    color:white;
+    background-color: #0F172A;
 }
+
 
 .bg-esjltgreen {
     color: #fff !important;
@@ -115,18 +152,21 @@ a.sunshine-text:hover {
 }
 
 .text-bg-esjltgreen {
-    color: #fff !important;
-    background-color: #02bf80;
+
+    background-color: #c8d7de;
+    color:#0F172A;
 }
+/* .font_black_2025
+{
+    color:#0F172A;
+} */
 
 .text-bg-esjdkgreen {
     color: #fff;
     background-color: #039359 !important;
 }
 
-.text-esjdkgreen {
-    color: #039359;
-}
+
 
 .text-esjltgreen {
     color: #02bf80;
@@ -142,13 +182,75 @@ a.sunshine-text:hover {
     background-color: #f57d05;
 }
 
-.text-muted {
-    color: #02bf80 !important;
+.card_css
+{
+    background-color:#0F172A;
+    /* background-color:#0ea5e9; */
+    color:white;
+    width:300px;
+    padding:20px;
+}
+.card_cnt
+{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+}
+.card_link
+{
+   color:white;
+   border-bottom: 1px dashed white ;
+   transition-duration: 0.3s;
+}
+.card_link:hover
+{
+    font-size: 1.2em;
+    transition-duration: 0.3s;
+    color:white;
 }
 
-.card-title {
-    color: #fff !important;
+.card-txt
+{
+    text-align: justify;
 }
+
+.card_top
+{
+    display: flex;
+    width:100%;
+    margin-bottom: 20px;
+}
+
+.card_logo
+{
+    width:15%;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_heading
+{
+    width:85%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.banner_icon
+{
+    color:#0F172A;
+    /* background-color: red; */
+}
+
+.banner_icon:hover
+{
+    font-size: 35px;
+    transition-duration: 0.3s;
+}
+
+
+
+
 
 .table-esj {
     --bs-table-color: #fff;
@@ -231,14 +333,36 @@ a.sunshine-text:hover {
     content: "";
 }
 
-.about,
-.email,
-.insta {
+.about {
     height: 50%;
     padding: 50px;
     margin: 0px;
     display: flex;
     justify-content: center;
+}
+.contact_way{
+    width:200px;
+    height:200px;
+    text-align: center;
+    /* border:1px solid #0F172A; */
+    padding:20px;
+    margin: 10px;
+    background-color:#0F172A;
+    color:white;
+    transition-duration: 0.3s;
+}
+
+
+
+
+.contact_logo
+{
+  display:flex;
+  height:50vh;
+  justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+   /* margin:20px; */
 }
 
 .about {
@@ -246,7 +370,7 @@ a.sunshine-text:hover {
 }
 
 .caption {
-    color: #039359 !important;
+    color: #0F172A;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -256,10 +380,11 @@ a.sunshine-text:hover {
 #department {
     padding-bottom: 50px;
     text-align: center;
+    color:#0F172A;
 }
 
 .abstract {
-    text-align: center;
+    text-align: justify;
     padding-bottom: 25px;
 }
 
@@ -282,13 +407,18 @@ a.sunshine-text:hover {
     bottom: 0;
     width: 100%;
     padding: 15px;
-    background-color: #02bf80;
+    background-color: #0F172A;
     text-align: center;
     color: #f9f9f9;
 }
+/* .cnt_footer
+{
+    position: fixed;
+    bottom: 0;
+} */
 
 #viewheight {
-    margin-top: 40vh;
+    margin-top: 30vh;
 }
 
 #prize {
@@ -301,10 +431,10 @@ a.sunshine-text:hover {
     justify-content: space-around;
 }
 
-#link {
+/* #link {
     color: #f9f9f9;
     text-decoration: underline;
-}
+} */
 
 #place,
 #name {
@@ -318,4 +448,79 @@ a.sunshine-text:hover {
 #interest {
     font-size: xx-large;
     background-color: #f57d05;
+}
+
+.winner_cards
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin:20px;
+    
+}
+.winner_card {
+    width:350px;
+    /* background-color: #0F172A; */
+}
+
+.home_info
+{
+    display:flex;
+    width:100vw;
+    justify-content: space-around;
+}
+
+.intrest_form
+{
+    width:200px;
+    margin:auto;
+    height:50px;
+    padding: 10px;
+    /* border:2px solid white; */
+    background-color: white;
+    color:#0F172A;
+    
+}
+
+.intrest_form:hover{
+    background-color: #0F172A;
+    transition-duration: 0.3s;
+    color:white;
+    box-shadow: 0px 10px 14px -9px black;
+   
+}
+
+.poster_winner
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.visible_change
+{
+  background-color: #0F172A;
+  color:white;
+  padding: 4px 10px;
+  border: 2px dotted white;
+}
+
+.visible_change:hover{
+    font-size: 1.2rem;
+    transition-duration: 0.3s;
+    background-color: #0F172A;
+  color:white;
+  /* border:none;
+  border-bottom: 2px dotted white; */
+}
+
+.bold_text
+{
+    font-weight:500;
+}
+
+.suggestion_list
+{
+ text-align: justify;
+ width:fit-content;
+ margin:auto;
 }

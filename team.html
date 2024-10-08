@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Engineering Social Justice 2024 - Student Teams</title>
+    <title>Engineering Social Justice 2025 - Student Teams</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="esj.css" rel="stylesheet">
@@ -12,93 +12,96 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="icon" type="image/ico" href="images/logoesj6-Jordan-Chiang.ico" />
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-esjdkgreen fixed-top shadow" aria-label="Third navbar example">
-        <div class="container-fluid">
-            <a href="index.html"
-                class="navbar-brand d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none">
-                <span class="fs-4 text-white">Engineering Social Justice 2024</span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
-                aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav ms-auto mb-2 mb-sm-0 nav nav-pills">
-                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="compete.html" class="nav-link">Competition</a></li>
-                    <li class="nav-item"><a href="prize.html" class="nav-link">Prize</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Teams</a></li>
-                    <li class="nav-item"><a href="mentor.html" class="nav-link">Mentoring</a></li>
-                    <li class="nav-item"><a href="winners.html" class="nav-link">Previous Winners</a></li>
-                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
-                </ul>
+    <!-- <nav class="navbar navbar-expand-md navbar-dark bg-esjdkgreen fixed-top shadow" aria-label="Third navbar example"> -->
+        <nav class="navbar navbar-expand-md fixed-top bg-esjdkgreen"  id="nvbar" aria-label="Third navbar example">
+            <div class="container-fluid">
+                <a href="index.html"
+                    class="navbar-brand d-flex align-items-center mb-md-0 me-md-auto text-decoration-none">
+                    <!--Change this to reflect appropriate year-->
+                    <span class="fs-sm-3 fs-4 nav_heading_main">Engineering Social Justice 2025</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
+                    aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="bi bi-list text-white"></i> 
+                </button>
+    
+                <div class="collapse navbar-collapse" id="navbar">
+                    <!--Top navigation menu-->
+                    <ul class="navbar-nav ms-auto mb-2 mb-sm-0 nav nav-pills">
+                        <!--Sets current tab-->
+                        <li class="nav-item"><a href="index.html" class="nav-link" aria-current="page">Home</a></li>
+                        <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                        <!-- <li class="nav-item"><a href="compete.html" class="nav-link">Competition</a></li> -->
+                        <li class="nav-item"><a href="prize.html" class="nav-link">Prize</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link active">Teams</a></li>
+                        <!-- <li class="nav-item"><a href="mentor.html" class="nav-link">Mentoring</a></li> -->
+                        <li class="nav-item"><a href="winners.html" class="nav-link">Previous Winners</a></li>
+                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     <main>
-        <div class="hero-banner px-4 pb-5 text-center bg-esjltgreen text-white">
+        <div class="hero-banner px-4 pb-5 text-center text-bg-esjltgreen">
             <div class="feature-icon-small d-inline-flex align-items-center justify-content-center fs-1 rounded-3"
                 style="height: 2em; width: 2em">
                 <i class="bi-people" id="icon-space"></i>
             </div>
             <h1 class="display-3 fw-bold">Student Teams</h1>
             <div class="col-lg-6 mx-auto">
-                <p class="lead mb-4">Groups of 2+ ECS students will identify a social justice issue and
+                <p class="lead mb-4 bold_text">Groups of 2+ ECS students will identify a social justice issue and
                     conceptualize an Engineering or Computer Science solution to address it.
                 </p>
             </div>
         </div>
-        <div class="container px-4" id="icon-grid">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5">
-                <div class="col d-flex align-items-start">
-                    <div class="text-esjdkgreen fs-3 me-3">
-                        <i class="bi-stars"></i>
-                    </div>
-                    <div>
-                        <h3 class="fw-bold mb-0 fs-4">Team Experience</h3>
-                        <p>All ECS students are welcome to join. First and second year students are highly encouraged to
+        <div class="container px-4 clr_dflt" id="icon-grid">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 py-5 card_cnt">
+                <!-- <div class="col d-flex align-items-start card_css"> -->
+                <div class=" card_css">
+                        <div class="card_top">
+                            <i class="bi-stars card_logo fw-bold fs-4"></i> <h3 class="fw-bold mb-0 fs-4 card_heading">Team Experience</h3>
+                        </div>
+                        <p class="card-txt">All ECS students are welcome to join. First and second year students are highly encouraged to
                             participate. Student teams will propose a solution to a social justice issue, not
-                            demonstrate a working solution.</p>
-                    </div>
+                            demonstrate a working solution.</p>               
                 </div>
-                <div class="col d-flex align-items-start">
-                    <div class="text-esjdkgreen fs-3 me-3">
-                        <i class="bi-globe"></i>
+
+                <div class=" card_css">
+                    <div class="card_top">
+                        <i class="bi-globe card_logo fw-bold fs-4"></i> <h3 class="fw-bold mb-0 fs-4 card_heading">Diversity</h3>
                     </div>
-                    <div>
-                        <h3 class="fw-bold mb-0 fs-4">Diversity</h3>
-                        <p>Different perspectives can produce amazing results! We encourage students to form teams with
-                            different majors and year levels.</p>
-                    </div>
+                    <p class="card-txt">Different perspectives can produce amazing results! We encourage students to form teams with
+                        different majors and year levels.</p>               
                 </div>
-                <div class="col d-flex align-items-start">
-                    <div class="text-esjdkgreen fs-3 me-3">
-                        <i class="bi-lightbulb"></i>
+
+                <div class=" card_css">
+                    <div class="card_top">
+                        <i class="bi-lightbulb card_logo fw-bold fs-4"></i> <h3 class="fw-bold mb-0 fs-4 card_heading">Workshops</h3>
                     </div>
-                    <div>
-                        <h3 class="fw-bold mb-0 fs-4">Workshops</h3>
-                        <p>Participants will join workshops to learn everything they need to brainstorm ideas, design
-                            solutions, draft a proposal, and develop a presentation.</p>
-                    </div>
+                    <p class="card-txt">Participants will join workshops to learn everything they need to brainstorm ideas, design
+                        solutions, draft a proposal, and develop a presentation.</p>               
                 </div>
-            </div>
         </div>
         <div class="px-4 text-center">
             <div class="suggestions">
                 <h3 class="text-esjdkgreen display-5 fw-bold">Suggestions!</h13>
                     <h5>Once you form your team, here are some suggestions for what to do next!</h5>
-                    <li>Form a <a href="https://discord.com/" target="_blank">channel</a> for your team!</li>
-                    <li>Email your <a href="mentor.html" target="_blank">mentor</a> (or start looking for one!)</li>
-                    <li>Follow our <a href="https://instagram.com/csuf_esj" target="_blank">Instagram</a> to stay in the
+                    <div class="suggestion_list">
+                    <li>Form a <a href="https://discord.gg/Vrg9aeU8mb" class="link_deoration" target="_blank">channel</a> for your team!</li>
+                    <!-- <li>Email your <a href="mentor.html" target="_blank">mentor</a> (or start looking for one!)</li> -->
+                    <li>Email your mentor (or start looking for one!)</li>
+                    <li>Follow our <a href="https://instagram.com/csuf_esj" class="link_deoration" target="_blank">Instagram</a> to stay in the
                         loop!</li>
+                    </div>
             </div>
         </div>
+
+        <!--  
 
         <div class="px-4 text-center">
             <h3 class="text-esjdkgreen display-5 fw-bold">ESJ 2024 Student Teams</h3>
@@ -206,11 +209,12 @@
                 </tbody>
             </table>
         </div>
+-->
     </main>
     <footer class="foot" id="viewheight">
         <p>ESJ is an annual competition striving to better our communities with innovative social justice
-            solutions. To learn more, go to our <a id="link" href="about.html">About</a> page!</p>
-        <p><a id="link" href="archive.html">Past Competitions</a></p>
+            solutions. To learn more, go to our <a class="card_link" href="about.html">About</a> page!</p>
+            <p><a class="card_link"  href="archive.html" target="_blank">Past Competitions </a></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">

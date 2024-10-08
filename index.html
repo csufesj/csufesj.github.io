@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--Change this to reflect appropriate year-->
-    <title>Engineering Social Justice 2024</title>
+    <title>Engineering Social Justice 2025</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="esj.css" rel="stylesheet">
@@ -13,20 +13,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="icon" type="image/ico" href="images/favicon.ico" />
+    <link rel="icon" type="image/ico" href="images/logoesj6-Jordan-Chiang.ico" />
+
+    
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-esjdkgreen fixed-top shadow" aria-label="Third navbar example">
+    <!-- <nav class="navbar navbar-expand-md navbar-dark bg-esjdkgreen fixed-top shadow" aria-label="Third navbar example"> -->
+    <nav class="navbar navbar-expand-md fixed-top bg-esjdkgreen"  id="nvbar" aria-label="Third navbar example">
         <div class="container-fluid">
             <a href="index.html"
-                class="navbar-brand d-flex align-items-center mb-md-0 me-md-auto text-dark text-decoration-none">
+                class="navbar-brand d-flex align-items-center mb-md-0 me-md-auto text-decoration-none">
                 <!--Change this to reflect appropriate year-->
-                <span class="fs-sm-3 fs-4 text-white">Engineering Social Justice 2024</span>
+                <span class="fs-sm-3 fs-4 nav_heading_main">Engineering Social Justice 2025</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar"
                 aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <!-- <span class="navbar-toggler-icon text-white"></span> -->
+                <i class="bi bi-list text-white"></i> 
             </button>
 
             <div class="collapse navbar-collapse" id="navbar">
@@ -35,10 +39,10 @@
                     <!--Sets current tab-->
                     <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
                     <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="compete.html" class="nav-link">Competition</a></li>
+                    <!-- <li class="nav-item"><a href="compete.html" class="nav-link">Competition</a></li> -->
                     <li class="nav-item"><a href="prize.html" class="nav-link">Prize</a></li>
                     <li class="nav-item"><a href="team.html" class="nav-link">Teams</a></li>
-                    <li class="nav-item"><a href="mentor.html" class="nav-link">Mentoring</a></li>
+                    <!-- <li class="nav-item"><a href="mentor.html" class="nav-link">Mentoring</a></li> -->
                     <li class="nav-item"><a href="winners.html" class="nav-link">Previous Winners</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Contact Us</a></li>
                 </ul>
@@ -49,11 +53,11 @@
         <div class="hero-banner px-4 text-center border-bottom text-bg-esjltgreen">
             <h1 class="display-2 fw-bold">
                 <!--Top heading-->
-                <p class="heading">Solve Social Justice Issues with</p>
+                <p class="heading heading_font">Solve Social Justice Issues with</p>
                 <p>Engineering and Computer Science!</p>
             </h1>
             <div class="col-lg-8 mx-auto">
-                <p class="lead mb-4">Form a team. Identify a social issue. Conceptualize a solution. Pitch your idea.
+                <p class="lead mb-4 bold_text">Form a team. Identify a social issue. Conceptualize a solution. Pitch your idea.
                     Win prize money!</p>
                 <div class="d-grid gap-2 d-sm-flex justify-content-sm-center pb-3">
                     <!--Edit this section as needed to link/unlink forms-->
@@ -62,39 +66,52 @@
                         Registration CLOSED</a> 
                         https://forms.gle/sJefbkqkWgjZ8RXu7 -->
                 </div>
-                <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center pb-3 fs-6">
-                    <a href=https://forms.gle/pCpdP5m438MarFpU8 class="text-white" target="_blank"><i
-                            class="bi-pencil-square"></i> Interest Form</a> -->
+                <div >
+                    <a href=https://forms.gle/QgtfSB5rCop4t9Z37 class="intrest_form" target="_blank"><i
+                            class="bi-pencil-square"></i> Interest Form</a>
+                </div>
+                       
             </div>
+            <br />
+            <br />
             <div class="me-auto p-2 pt-4">
-                <a class="text-white"
+                <a class="visible_change"
                     href="https://news.fullerton.edu/2022/06/11-cal-state-fullerton-programs-awarded-funding-from-scott-jewett-gift/"
                     target="_blank">Funded
-                    by the Scott Jewett Fund for Innovation and Student Success</a>
+                    by the Scott Jewett Fund for Innovation and Student Success > </a>
                 <p></p>
-                <a class="text-white" href="https://www.sce.com/" target="_blank">Sponsored by Southern California
-                    Edison</a>
+                <a class="visible_change" href="https://www.sce.com/" target="_blank">Sponsored by Southern California
+                    Edison > </a>
             </div>
             <div class="d-flex mb-3">
                 <div class="me-auto p-2">
                     <!--This section needs fixing :( -->
                     <a href="https://www.fullerton.edu/ecs/" target="_blank"><img height=50
-                            src="images/logos/ecs.png" /></a>
+                            src="images/logos/ecs_updated.png"  /></a>
+                </div>
+                <div class="p-2">
+                    <div class="feature-icon-small d-inline-flex align-items-center justify-content-center fs-1 rounded-3"
+                        style="height: 1em; width: 1em">
+                        <a href="https://discord.gg/Vrg9aeU8mb" target="_blank"><i
+                                class="bi-discord banner_icon"></i></a>
+                    </div>
                 </div>
                 <div class="p-2">
                     <div class="feature-icon-small d-inline-flex align-items-center justify-content-center fs-1 rounded-3"
                         style="height: 1em; width: 1em">
                         <a href="https://www.instagram.com/csuf_esj/" target="_blank"><i
-                                class="bi-instagram text-white"></i></a>
+                                class="bi-instagram banner_icon"></i></a>
                     </div>
                 </div>
             </div>
         </div>
 
         </div>
+        <!--Comment/uncomment this section for announcement of winners-->
+        <!--This needs to be done better!! :')-->
+        <!-- 
         <div>
-            <!--Comment/uncomment this section for announcement of winners-->
-            <!--This needs to be done better!! :')-->
+            
             <br>
             <center>
                 <h1>ESJ 2024 Winners!</h1>
@@ -169,31 +186,32 @@
             <hr style="height:10px;border-width:0;color:#02bf80;background-color:#02bf80;">
         </div>
         </div>
-
+ -->
         <div>
             <center>
-                <h1>Press</h1>
-            <a href="https://news.fullerton.edu/spotlight/engineering-computer-science-students-pitch-solutions-to-address-social-justice-issues/">Engineering, Computer Science Students Pitch Solutions to Address Social Justice Issues</a>
+                <h1 class="clr_dflt">Press</h1>
+            <a class="link_deoration" href="https://news.fullerton.edu/spotlight/engineering-computer-science-students-pitch-solutions-to-address-social-justice-issues/">Engineering, Computer Science Students Pitch Solutions to Address Social Justice Issues</a>
             </center>
         </div>
 
-        <div class="pt-5">
-            <div class="px-5 row">
-                <div class="col-sm-6 col-md-6 col-lg-4 mb-3">
-                    <div class="card shadow text-bg-esjorange h-100" style="border: none">
-                        <div class="card-body">
+          <div class="card_cnt">
+                    <div class="card_css " style="border: none">
                             <!--Edit cards as necessary with relevant info and correct dates-->
-                            <h5 class="card-title"><span class="fs-4">Info Session</span>
-                                <p class="fs-6">October 17th & 18th @ CS-207</p>
+                            <h5 ><span class="fs-4">Info Session</span>
+                                <p class="fs-6">October 15th & 16th @ CS-204</p>
                             </h5>
-                            <p class="card-text">
+                            <p class="card-txt">
                                 Learn more about the competition and meet like-minded ECS students interested in
                                 addressing social justice issues. Plus, free pizza!
                             </p>
-                            <p><a id="link" target="_blank" href="Info Session.pdf">Info Session Flyer</a></p>
-                        </div>
+                            <p><a class="card_link" target="_blank" href="Info Session.pdf">Info Session Flyer</a></p>
+                        
                     </div>
                 </div>
+              
+
+                <!-- This div contains press card regarding any Workshop -->
+                 <!--
                 <div class="col-sm-6 col-md-6 col-lg-4 mb-3">
                     <div class="card shadow text-bg-esjorange h-100" style="border: none">
                         <div class="card-body">
@@ -219,8 +237,14 @@
                         </div>
                     </div>
                 </div>
-            </div>
+-->
+            <!-- </div> -->
             <!-- taken from https://mdbootstrap.com/docs/standard/extended/timeline/ -->
+
+            <div class="">
+                <div class="more_info"></div>
+                <div class="time_line"></div>
+            </div>
             <div class="container px-4">
                 <div class="row row-cols-1 row-cols-lg-2 align-items-md-center g-5">
                     <div class="row row-cols-1 row-cols-sm-2 g-4">
@@ -230,11 +254,11 @@
                                 <i class="bi-trophy"></i>
                             </div>
                             <!--Prizes may potentially need to be updated-->
-                            <h4 class="fw-semibold mb-0">Prize Money</h4>
-                            <p class="text-muted">First prize: $6,000 </br>
+                            <h4 class="fw-semibold mb-0" class="clr_dflt">Prize Money</h4>
+                            <p class="clr_dflt">First prize: $6,000 </br>
                                 Second prize: $4,000</br>
                                 Third prize: $2,000.</p>
-                            <p><a href="prize.html">
+                            <p><a class="link_deoration" href="prize.html">
                                     Learn more >
                                 </a></p>
                         </div>
@@ -244,9 +268,9 @@
                                 <i class="bi-people"></i>
                             </div>
                             <h4 class="fw-semibold mb-0">Student Teams</h4>
-                            <p class="text-muted">Form a group of 4 - 6 ECS students to conceptualize ECS solutions to
+                            <p class="clr_dflt">Form a group of 4 - 6 ECS students to conceptualize ECS solutions to
                                 address a social justice issue.</p>
-                            <p><a href="team.html">
+                            <p><a class="link_deoration" href="team.html">
                                     Learn more >
                                 </a></p>
                         </div>
@@ -257,9 +281,9 @@
                                 <i class="bi-person-video3"></i>
                             </div>
                             <h4 class="fw-semibold mb-0">Mentoring</h4>
-                            <p class="text-muted">Teams will get support from ECS faculty mentors and attend workshops
+                            <p class="clr_dflt">Teams will get support from ECS faculty mentors and attend workshops
                                 to plan, design, and present their solutions.</p>
-                            <p><a href="mentor.html">
+                            <p><a class="link_deoration" href="mentor.html">
                                     Learn more >
                                 </a></p>
                         </div>
@@ -270,26 +294,27 @@
                                 <i class="bi-easel"></i>
                             </div>
                             <h4 class="fw-semibold mb-0">Competition</h4>
-                            <p class="text-muted">Pitch your idea to a panel of industry professionals to win grant
+                            <p class="clr_dflt">Pitch your idea to a panel of industry professionals to win grant
                                 money for further development.</p>
-                            <p><a href="compete.html">
+                            <p><a class="link_deoration" href="compete.html">
                                     Learn more >
                                 </a></p>
                         </div>
                     </div>
-                    <div class="d-flex flex-column align-items-start gap-2">
+                    <div class="d-flex flex-column align-items-center gap-2">
                         <section class="py-5">
                             <!--Edit timeline as necessary-->
                             <h3 class="fw-bold mb-5">Timeline</h3>
                             <ul class="timeline">
                                 <li class="timeline-item mb-5">
                                     <h5 class="fw-bold">Information Session</h5>
-                                    <h6>Room CS-207 @ 12pm</h6>
-                                    <p class="text-muted mb-2 fw-bold">October 17th & 18th</p>
+                                    <h6>Room CS-204 @ 12pm</h6>
+                                    <p class="text-muted mb-2 fw-bold">October 15th & 16th</p>
                                     <p class="text-muted">
                                     </p>
                                 </li>
 
+<!--  
                                 <li class="timeline-item mb-5">
                                     <h5 class="fw-bold">Social Justice Design Workshop</h5>
                                     <h6>Room CS207 @ 11am-1pm</h6>
@@ -324,27 +349,29 @@
                                     <p class="text-muted mb-2 fw-bold">March 6th</p>
                                     <p class="text-muted">
                                     </p>
-                                </li>
+                                </li> -->
                                 <li class="timeline-item mb-5">
                                     <h5 class="fw-bold">Competition</h5>
-                                    <h6>TSU Pavilion A</h6>
-                                    <p class="text-muted mb-2 fw-bold">March 20th</p>
+                                    <h6>TBD</h6>
+                                    <p class="text-muted mb-2 fw-bold">March 19th, 2025</p>
                                     <p class="text-muted">
                                     </p>
                                 </li>
+
+
                             </ul>
                         </section>
                     </div>
                 </div>
             </div>
-            <div class="text-bg-esjdkgreen py-5">
+            <div class="text-bg-esjltgreen py-5">
                 <div class="px-4 text-center">
                     <!--TODO: Link Social Justice issues-->
                     <h1 class="display-5 fw-bold">Examples of Social Justice Issues</h1>
-                    <p class="lead">There are several social justice issues around us. Here are some examples you might
+                    <p class="lead bold_text">There are several social justice issues around us. Here are some examples you might
                         consider for your projects:</p>
                 </div>
-                <div class="row row-cols-1 row-cols-sm-5 mx-5">
+                <div class="row row-cols-1 row-cols-sm-5 mx-5 bold_text">
                     <div class="d-flex p-2 flex-column gap-2 align-items-center">
                         <div class="feature-icon-small d-inline-flex align-items-center justify-content-center fs-1 rounded-3"
                             style="height: 2em; width: 2em">
@@ -380,12 +407,15 @@
     </main>
     <footer class="foot">
         <p>ESJ is an annual competition striving to better our communities with innovative social justice
-            solutions. To learn more, go to our <a id="link" href="about.html">About</a> page!</p>
-        <p><a id="link" href="archive.html">Past Competitions</a></p>
+            solutions. To learn more, go to our <a class="card_link"  href="about.html">About</a> page!</p>
+        <p><a class="card_link"  href="archive.html" target="_blank">Past Competitions </a></p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+    
     </script>
+    
+    
 </body>
 
 </html>
