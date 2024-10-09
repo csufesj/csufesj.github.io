@@ -6,7 +6,7 @@ body {
 }
 
 .hero-banner {
-    padding-top: 5rem;
+    padding-top: 5rem; 
 }
 
 .clr_dflt
@@ -358,11 +358,11 @@ a.sunshine-text:hover {
 .contact_logo
 {
   display:flex;
-  height:50vh;
+  /* height:50vh; */
   justify-content: space-around;
    align-items: center;
    flex-wrap: wrap;
-   /* margin:20px; */
+   margin:80px auto;
 }
 
 .about {
@@ -418,7 +418,7 @@ a.sunshine-text:hover {
 } */
 
 #viewheight {
-    margin-top: 30vh;
+    margin-top: 20vh;
 }
 
 #prize {
