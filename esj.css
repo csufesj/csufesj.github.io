@@ -195,6 +195,7 @@ a.sunshine-text:hover {
   display: flex;
   justify-content: space-around;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 .card_link
 {
@@ -233,6 +234,10 @@ a.sunshine-text:hover {
     width:85%;
     justify-content: center;
     align-items: center;
+}
+.index_card
+{
+    margin:10px;
 }
 
 
