@@ -14,6 +14,11 @@ body {
     color:#0f172a;;
 }
 
+.card_teams{
+ gap:20px;
+}
+
+
 /* a {
     color: #f57d05;
 }
@@ -528,4 +533,72 @@ a.sunshine-text:hover {
  text-align: justify;
  width:fit-content;
  margin:auto;
+}
+
+
+.accordion_cstm {
+    /* max-width: 600px; */
+    width: 90vw;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 1.25rem;
+    
+
+}
+
+.accordion-item {
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 0px;
+    overflow: hidden;
+}
+
+.accordion-header {
+    /* background-color: #c8d7de; */
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    border-radius: 0px;
+    color:#0F172A;
+    border: 1px solid #0F172A;
+}
+
+.accordion-header:hover {
+    background-color: #0F172A;
+    color:white;
+}
+
+.accordion-header::after {
+    content: '\25BC'; /* Down arrow */
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+.accordion-header.active::after {
+    transform: rotate(180deg); /* Up arrow when active */
+}
+
+.accordion-content {
+    max-height: 0;
+    padding: 0 15px;
+    background-color: white;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+    background-color: #c8d7de;
+    border: 1px solid #0F172A;
+
+}
+
+.accordion-content.active {
+    padding: 15px;
+}
+
+
+.team_title{
+    text-align: center;
 }
