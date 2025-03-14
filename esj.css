@@ -14,9 +14,7 @@ body {
     color:#0f172a;;
 }
 
-.card_teams{
- gap:20px;
-}
+
 
 
 /* a {
@@ -602,3 +600,12 @@ a.sunshine-text:hover {
 .team_title{
     text-align: center;
 }
+
+.card_teams{
+    gap:20px;
+    /* background-color: red; */
+    width:90%;
+    margin-left: 5%;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+   }
