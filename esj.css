@@ -609,3 +609,47 @@ a.sunshine-text:hover {
     /* border: 2px solid black; */
     justify-content: space-between;
    }
+
+
+   .contest_info{
+    width:100vw;
+    padding: 5%;
+    text-align: center;
+   }
+
+   .main_contest_img{
+     display: flex;
+     justify-content: space-around;
+   }
+
+   .poster_contest
+   {
+    background-image: url("./images/competition_info.png");
+    width:50%;
+    height:800px;
+     background-size: 100% 100%;
+   }
+
+   @media (max-width: 710px) {
+    .poster_contest
+    {
+     width:80%;
+    }
+}
+
+
+@media (max-width: 590px) {
+    .poster_contest
+    {
+     width:90%;
+     height:500px;
+    }
+}
+
+@media (max-width: 390px) {
+    .poster_contest
+    {
+     width:90%;
+     height:400px;
+    }
+}
