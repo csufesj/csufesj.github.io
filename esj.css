@@ -624,16 +624,114 @@ a.sunshine-text:hover {
 
    .poster_contest
    {
-    background-image: url("./images/competition_info.png");
+    background-image: url("./images/ESJ_Cover_Page.png");
     width:50%;
     height:800px;
      background-size: 100% 100%;
    }
 
+
+
+
+   .carousel-container {
+    width: 50%;
+    height: 800px;
+    margin: 50px auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel {
+    display: flex;
+    width: 400%; /* 100% × number of slides */
+    height: 100%;
+    position: relative;
+    transition: transform 0.5s ease;
+}
+
+.carousel:hover {
+    animation-play-state: paused;
+}
+
+.slide {
+    width: 25%; /* 100% / number of slides */
+    height: 100%;
+    flex-shrink: 0;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nav-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.nav-button:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.slide_1{
+    background-image: url("./images/ESJ_Cover_Page.png");
+    /* width:50%;
+    height:800px; */
+     background-size: 100% 100%;
+}
+
+.slide_2{
+    background-image: url("./images/ESJ_Judges.png");
+    /* width:50%;
+    height:800px; */
+     background-size: 100% 100%;
+}
+
+.slide_3{
+    background-image: url("./images/ESJ_Agenda.png");
+    /* width:50%;
+    height:800px; */
+     background-size: 100% 100%;
+}
+
+.slide_4{
+    background-image: url("./images/ESJ_Student_Teams.png");
+    /* width:50%;
+    height:800px; */
+     background-size: 100% 100%;
+}
+
+.crsl_title{
+  text-align: center;
+}
+
+
+
+
    @media (max-width: 710px) {
     .poster_contest
     {
      width:80%;
+    }
+    .carousel-container
+    {
+        width:80%;
     }
 }
 
@@ -644,12 +742,24 @@ a.sunshine-text:hover {
      width:90%;
      height:500px;
     }
+
+    .carousel-container
+    {
+        width:90%;
+        height:500px;
+    }
 }
 
 @media (max-width: 390px) {
     .poster_contest
     {
      width:90%;
+     height:400px;
+    }
+
+    .carousel-container
+    {
+        width:90%;
      height:400px;
     }
 }

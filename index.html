@@ -196,16 +196,36 @@
         </div>
  -->
 
- <div class="contest_info">
-    <h1 class="clr_dflt">ESJ 2025</h1>
-    <br />
-    <div class="main_contest_img">
+ <!-- <div class="contest_info"> -->
+    <!-- <br /> -->
+    <!-- <div class="main_contest_img">
         <div class="poster_contest"></div>
         
     </div>
     <br />
-    <a class="link_deoration" href="images/competition_info.png">CSUF ESJ, 2025 ></a>
- </div>
+    <a class="link_deoration" href="images/ESJ_Cover_Page.png">CSUF ESJ, 2025 ></a> -->
+ <!-- </div> -->
+  <br>
+  <br>
+  <br>
+ <h1 class="clr_dflt crsl_title">ESJ 2025</h1>
+
+ <div class="carousel-container">
+    <div class="carousel" id="carousel">
+        <div class="slide slide_1">
+            <!-- <img src="images/ESJ_Cover_Page.png" alt="Slide 1"> -->
+        </div>
+        <div class="slide slide_2">
+        </div>
+        <div class="slide slide_3">
+        </div>
+        <div class="slide slide_4">
+        </div>
+    </div>
+    <button class="nav-button prev" onclick="prevSlide()">❮</button>
+    <button class="nav-button next" onclick="nextSlide()">❯</button>
+</div>
+
  <br />
         <div>
             <center>
@@ -454,7 +474,39 @@
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
     
     </script>
-    
+    <script>
+        const carousel = document.getElementById('carousel');
+        let currentSlide = 0;
+        const totalSlides = 4; // Updated to 4 slides
+        let slideWidth = 100 / totalSlides; // Now 25%
+
+        function moveToSlide(slideIndex) {
+            carousel.style.transform = `translateX(-${slideIndex * slideWidth}%)`;
+            currentSlide = slideIndex;
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % totalSlides;
+            moveToSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+            moveToSlide(currentSlide);
+        }
+
+        // Auto-slide
+        let autoSlide = setInterval(nextSlide, 3000);
+
+        // Pause on hover
+        carousel.parentElement.addEventListener('mouseenter', () => {
+            clearInterval(autoSlide);
+        });
+
+        carousel.parentElement.addEventListener('mouseleave', () => {
+            autoSlide = setInterval(nextSlide, 3000);
+        });
+    </script>
     
 </body>
 
