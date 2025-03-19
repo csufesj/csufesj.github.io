@@ -634,8 +634,8 @@ a.sunshine-text:hover {
 
 
    .carousel-container {
-    width: 50%;
-    height: 800px;
+    width: 40%;
+    height: 90vh;
     margin: 50px auto;
     overflow: hidden;
     position: relative;
