@@ -629,7 +629,54 @@ a.sunshine-text:hover {
     height:800px;
      background-size: 100% 100%;
    }
+/* 
+.about_details{
+    width: 90vw;
+    margin:5% 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about_title{
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 10px solid black;
+} */
 
+.about_details {
+    width: 90vw;
+    max-width: 1000px;
+    margin: 5% auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    color: #222;
+    line-height: 1.6;
+}
+
+.about_section {
+    /* background: #f9f9f9; */
+    background: #0F172A;
+    color: white;
+    padding: 25px 30px;
+    /* border-radius: 12px; */
+    /* box-shadow: 0px 0px 36px -8px black; */
+}
+
+.about_title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid white;
+    font-weight: 600;
+}
+
+.about_description{
+    font-size: 1.25em;
+    text-align: justify;
+}
 
 
 
