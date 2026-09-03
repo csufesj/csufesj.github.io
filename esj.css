@@ -9,6 +9,43 @@ body {
     padding-top: 5rem; 
 }
 
+.hero_event {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.hero_event_date {
+    margin-bottom: 0.1rem;
+    color: #0F172A;
+    font-size: 1.7rem;
+    font-weight: 700;
+}
+
+.hero_event_meta {
+    margin-bottom: 0;
+    color: #0F172A;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero_actions {
+    margin-top: 1.5rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid rgba(15, 23, 42, 0.18);
+}
+
+.hero_actions_label {
+    margin-bottom: 1rem;
+    color: rgba(15, 23, 42, 0.75);
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
 .clr_dflt
 {
     color:#0f172a;;
