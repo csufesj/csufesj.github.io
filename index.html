@@ -124,28 +124,6 @@
         </div>
 
         </div>
-        <!--Comment/uncomment this section for announcement of winners-->
-        <!--This needs to be done better!! :')-->
-  <!-- Below is the code for carousel for the final competition day -->
-
- <!-- <h1 class="clr_dflt crsl_title">ESJ 2027</h1>
-
- <div class="carousel-container">
-    <div class="carousel" id="carousel">
-        <div class="slide slide_1">
-           
-        </div>
-        <div class="slide slide_2">
-        </div>
-        <div class="slide slide_3">
-        </div>
-        <div class="slide slide_4">
-        </div>
-    </div>
-    <button class="nav-button prev" onclick="prevSlide()">❮</button>
-    <button class="nav-button next" onclick="nextSlide()">❯</button>
-</div> -->
-
  <br />
         <div class="card_cnt">
             <center>
@@ -154,8 +132,9 @@
             </center>
         </div>
 
-          <div class="card_cnt">
-                    <div class="card_css index_card" style="border: none">
+          <div class="card_cnt" id="news-cards"></div>
+          <div id="news-source" hidden>
+                    <div class="card_css index_card" data-news-date="2026-09-23" style="border: none">
                         <h5><span class="fs-4">ECS Welcome Day</span>
                             <p class="fs-6">September 23, 2026<br />11:30 AM - 1:30 PM @ ECS Quad</p>
                         </h5>
@@ -163,7 +142,7 @@
                             Visit the ESJ booth at ECS Welcome Day to meet the organizers, learn about the competition, and register to receive more information and updates.
                         </p>
                     </div>
-                    <div class="card_css index_card" style="border: none">
+                    <div class="card_css index_card" data-news-date="2026-10-07" style="border: none">
                             <!--Edit cards as necessary with relevant info and correct dates-->
                             <h5 ><span class="fs-4">Info Session</span>
                                 <p class="fs-6">October 6-7, 2026<br />12:00 PM - 1:00 PM @ E11</p>
@@ -174,7 +153,15 @@
                             </p>
 
                     </div>
-                    <div class="card_css index_card" style="border: none">
+                    <div class="card_css index_card" data-news-date="2026-10-27" style="border: none">
+                        <h5><span class="fs-4">Team Building Workshop</span>
+                            <p class="fs-6">October 27, 2026<br />12:00 PM - 1:00 PM @ E11</p>
+                        </h5>
+                        <p class="card-txt">
+                            Meet other ESJ participants, build connections with potential teammates, and prepare for the competition together.
+                        </p>
+                    </div>
+                    <div class="card_css index_card" data-news-date="2027-03-17" style="border: none">
                         <h5><span class="fs-4">Competition Day</span>
                             <p class="fs-6">March 17, 2027<br />1:00 PM - 5:00 PM @ TSU Pavilion A</p>
                         </h5>
@@ -183,15 +170,6 @@
                         </p>
                     </div>
                     <!--
-                    <div class="card_css index_card" style="border: none">
-                        <h5 ><span class="fs-4">Social Justice Design Workshop</span>
-                            <p class="fs-6">Date & Time: TBA</p>
-                        </h5>
-                        <p class="card-txt">
-                            Learn more about social justice and social justice-centered design. Plus, free pizza!
-                        </p>
-                        <p><a class="card_link" target="_blank" href="ESJ_Design_Workshop_2027.pdf">Workshop Flyer ></a></p>
-                    </div>
                     <div class="card_css index_card" style="border: none">
                         <h5 ><span class="fs-4">ECS Entrepreneurship Workshop</span>
                             <p class="fs-6">Date & Time: TBA</p>
@@ -308,9 +286,9 @@
 
  
                                 <li class="timeline-item mb-5">
-                                    <h5 class="fw-bold">Social Justice Design Workshop</h5>
-                                    <h6>Details coming soon</h6>
-                                    <p class="text-muted mb-2 fw-bold">Fall 2026</p>
+                                    <h5 class="fw-bold">Team Building Workshop</h5>
+                                    <h6>12:00 PM - 1:00 PM @ E11</h6>
+                                    <p class="text-muted mb-2 fw-bold">October 27, 2026</p>
                                     <p class="text-muted">
                                     </p>
                                 </li>
@@ -411,37 +389,18 @@
     
     </script>
     <script>
-        const carousel = document.getElementById('carousel');
-        let currentSlide = 0;
-        const totalSlides = 4; // Updated to 4 slides
-        let slideWidth = 100 / totalSlides; // Now 25%
+        const newsCards = document.getElementById('news-cards');
+        const newsSource = document.getElementById('news-source');
 
-        function moveToSlide(slideIndex) {
-            carousel.style.transform = `translateX(-${slideIndex * slideWidth}%)`;
-            currentSlide = slideIndex;
+        if (newsCards && newsSource) {
+            const newsItems = Array.from(newsSource.children)
+                .filter((item) => item.dataset.newsDate)
+                .slice(-3);
+
+            newsItems.forEach((item) => {
+                newsCards.appendChild(item.cloneNode(true));
+            });
         }
-
-        function nextSlide() {
-            currentSlide = (currentSlide + 1) % totalSlides;
-            moveToSlide(currentSlide);
-        }
-
-        function prevSlide() {
-            currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
-            moveToSlide(currentSlide);
-        }
-
-        // Auto-slide
-        let autoSlide = setInterval(nextSlide, 3000);
-
-        // Pause on hover
-        carousel.parentElement.addEventListener('mouseenter', () => {
-            clearInterval(autoSlide);
-        });
-
-        carousel.parentElement.addEventListener('mouseleave', () => {
-            autoSlide = setInterval(nextSlide, 3000);
-        });
     </script>
     
 </body>
