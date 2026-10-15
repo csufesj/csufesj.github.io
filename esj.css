@@ -1,8 +1,16 @@
-f/*TODO: ORGANIZE*/
+/*TODO: ORGANIZE*/
 body {
-    min-height: 75rem;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
     background-color: #f9f9f9;
     font-family: "Ubuntu", sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
 }
 
 .hero-banner {
@@ -462,9 +470,6 @@ a.sunshine-text:hover {
     bottom: 0;
 } */
 
-#viewheight {
-    margin-top: 20vh;
-}
 
 #prize {
     padding-top: 50px;
