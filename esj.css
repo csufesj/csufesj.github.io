@@ -288,6 +288,23 @@ a.sunshine-text:hover {
     margin:5px;
 }
 
+#news-events {
+    align-items: stretch;
+    gap: 20px;
+    justify-content: center;
+}
+
+#news-events .index_card {
+    display: flex;
+    flex: 1 1 320px;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+#news-events .card-txt {
+    flex-grow: 1;
+}
+
 
 .banner_icon
 {
